@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: gray;
+            border: black 1px solid;
+            padding: 10px;
+            margin: 10px;
+        }
+        #box1 {
+            text-align: center  ;
+            background-color: antiquewhite;
+           /* display: none;*/
+        }
+        #box1 > p{
+            color: green;
+        }
+        .container{
+            background-color: aqua;
+            display: grid;
+            flex-wrap: wrap;
+            gap: 20px;
+            min-height: 100vp;
+            grid-column: grid ;
+        }
+        .container1{
+            display: grid;
+            grid-template-columns: 25% 50% 25%;
+            grid-template-rows: 100px;
+        }
+        .container1 > div {
+            margin: 10px;
+            padding: 10px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div class="container">
+    <div class="box" id="box1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+
+    <div class="box">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sunt.</p>
+    </div>
+
+    <div class="box">
+       
+    </div>
+
+    <div class="box">
+
+    </div>
+    </div>
+
+
+    <div class="container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--class,id => nultiple elements can have same class but not same id-->
+
+<body>
+    <h1>HTML Forms</h1>
+    <form action="result.txt" method="get">
+        <label for="Firstname">First Name</label><br>
+        <input id ="Firstname" type="text " name ="Firstname" placeholder="Enter First Name" required> <br> 
+
+        <label for="Lastname">Last Name</label><br>
+        <input id ="Lastname" type ="text" name="Lastname" placeholder="Enter Last Name" required>
+
+        <br>
+        <!-- Radio-->
+         <label for="gender"></label>
+        <input type="radio" name="gender" value="male">Male 
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="other">other
+        <br>
+        <br>
+        <!-- Drop down list-->
+        <select name="course"  multiple>
+            <option value="">Python</option>
+            <option value="Cybersecurity"> Cyber Security</option>
+            <option value="Django">Django</option>
+            </select>
+            <br><br>
+        <label for="bio"></label>
+        <textarea name="bio" id="">This is bio...</textarea>
+        <br><br>
+    
+        <label for="">Color</label>
+        <input type="color" name="" id="">
+        <br><br>
+
+        <label for="">Email</label>
+        <input type="email">
+        <br><br>
+        <label for="">password</label>
+        <input type="password">
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="date">
+        <br><br>
+        quantity
+        <input type="number" min="0" max="10" step="0.5">
+
+
+
+        <input type="submit">
+        
+      
+    </form>
+</body>
+</html>

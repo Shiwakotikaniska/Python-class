@@ -1,0 +1,27 @@
+
+        h1,h3,h5{
+            color: gold;
+         
+        }
+        h2,h4,h6{
+            color: green;
+        }
+        body{
+            background-color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url(images/a-dark-and-light-blue-room-with-a-wooden-floor-free-photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+          
+            /*background: chocolate url(url(images/download (1).jpg)) no-repeat right top fixed;*/
+            
+        }
+
+        #first-heading{
+            color: rgb(129, 0, 129);
+        }
+        .blue{
+            color: blue;
+        }
+ 
